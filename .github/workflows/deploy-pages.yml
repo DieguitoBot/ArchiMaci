@@ -1,0 +1,55 @@
+name: Publicar regalo de Maci
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Comprobar y preparar la web
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener el código
+        uses: actions/checkout@v6
+      - name: Usar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Comprobar los módulos JavaScript
+        working-directory: peluche-para-ti
+        run: |
+          for file in js/*.js; do node --check "$file"; done
+      - name: Ejecutar las pruebas
+        working-directory: peluche-para-ti
+        run: node tests/smoke.mjs
+      - name: Preparar los archivos estáticos
+        run: node peluche-para-ti/scripts/build.mjs
+      - name: Guardar la web para GitHub Pages
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: peluche-para-ti/dist
+
+  deploy:
+    name: Publicar en GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Publicar el regalo
+        id: deployment
+        uses: actions/deploy-pages@v4

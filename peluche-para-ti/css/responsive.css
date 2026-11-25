@@ -1,0 +1,731 @@
+@media(min-width:1500px) {
+  .hero {
+    padding-top:65px
+  }
+
+  .hero h1 {
+    font-size:64px
+  }
+
+  .gift-stage {
+    height:320px;
+    width:580px
+  }
+
+  .gift-art {
+    inset:-20px 0 0
+  }
+
+  .hero-subtitle {
+    margin-top:27px
+  }
+
+  .hero-bottom {
+    bottom:29px
+  }
+
+}
+
+@media(max-width:1050px) {
+  .site-header {
+    padding:0 32px
+  }
+
+  .site-header nav {
+    gap:20px
+  }
+
+  .hero-doodle {
+    width:85px
+  }
+
+  .doodle-left {
+    left:3%
+  }
+
+  .doodle-right {
+    right:3%
+  }
+
+  .hero-bottom {
+    left:30px;
+    right:30px;
+    font-size:8px
+  }
+
+  .introduction {
+    gap:55px
+  }
+
+  .adoption-layout {
+    gap:35px
+  }
+
+  .arch {
+    height:420px
+  }
+
+  .hero h1 {
+    font-size:52px
+  }
+
+  .interaction-buttons .button {
+    min-width:140px
+  }
+
+  .section {
+    padding-left:35px;
+    padding-right:35px
+  }
+
+}
+
+@media(max-width:760px) {
+  html {
+    scroll-padding-top:78px
+  }
+
+  .site-header {
+    height:85px;
+    padding:0 24px
+  }
+
+  .site-header nav {
+    display:none
+  }
+
+  .brand>span:last-child {
+    font-size:22px
+  }
+
+  .brand small {
+    font-size:8px;
+    letter-spacing:1.7px
+  }
+
+  .sound-label {
+    display:none
+  }
+
+  .sound-button {
+    padding:10px;
+    border-radius:50%
+  }
+
+  .hero {
+    min-height:calc(100svh - 85px);
+    padding-top:48px;
+    padding-bottom:90px
+  }
+
+  .hero h1 {
+    font-size:clamp(35px,6.4vw,48px);
+    letter-spacing:-1.5px;
+    margin-top:25px
+  }
+
+  .hero-subtitle {
+    font-size:14px;
+    margin-top:23px
+  }
+
+  .hero-doodle {
+    width:65px;
+    height:140px;
+    top:44%
+  }
+
+  .doodle-left {
+    left:0;
+    transform:rotate(-20deg)
+  }
+
+  .doodle-right {
+    right:0;
+    transform:rotate(22deg)
+  }
+
+  .gift-stage {
+    width:440px;
+    height:275px;
+    margin-top:5px
+  }
+
+  .gift-art {
+    inset:0
+  }
+
+  .gift-annotation {
+    left:0;
+    top:115px;
+    font-size:12px
+  }
+
+  .gift-note {
+    right:0;
+    top:145px;
+    font-size:10px
+  }
+
+  .gift-note i {
+    font-size:16px
+  }
+
+  .gift-note>span {
+    font-size:22px
+  }
+
+  .hero-bottom {
+    left:25px;
+    right:25px;
+    font-size:7px;
+    letter-spacing:1px
+  }
+
+  .bottom-heart {
+    font-size:19px
+  }
+
+  .star-one {
+    left:9%;
+    top:8%;
+    font-size:20px
+  }
+
+  .star-two {
+    right:8%;
+    top:25%
+  }
+
+  .journey-inner {
+    gap:12px;
+    padding:13px 20px
+  }
+
+  .journey-line {
+    width:30px
+  }
+
+  .journey a {
+    font-size:10px;
+    gap:5px
+  }
+
+  .journey a span {
+    font-size:17px
+  }
+
+  .section {
+    padding:75px 26px
+  }
+
+  .introduction {
+    grid-template-columns:1fr;
+    gap:45px;
+    max-width:530px
+  }
+
+  .intro-art {
+    max-width:340px;
+    width:100%;
+    margin:auto
+  }
+
+  .arch {
+    height:400px
+  }
+
+  .intro-copy {
+    text-align:center
+  }
+
+  .intro-copy h2 br:nth-child(2) {
+    display:none
+  }
+
+  .intro-copy>p:not(.eyebrow) {
+    margin-left:auto;
+    margin-right:auto;
+    max-width:400px
+  }
+
+  .intro-copy h2 {
+    font-size:43px
+  }
+
+  .paper-sticker {
+    right:-8px;
+    font-size:11px;
+    bottom:30px
+  }
+
+  .section-heading {
+    margin-bottom:35px
+  }
+
+  .section-heading h2 {
+    font-size:39px
+  }
+
+  .section-heading .eyebrow {
+    font-size:9px;
+    letter-spacing:2px
+  }
+
+  .adoption-layout {
+    grid-template-columns:1fr;
+    max-width:460px;
+    margin:auto;
+    gap:35px
+  }
+
+  .personal-preview {
+    min-height:420px;
+    padding:24px
+  }
+
+  .personal-preview .bear-slot {
+    height:265px;
+    width:245px
+  }
+
+  .preview-caption {
+    font-size:12px
+  }
+
+  .preview-tag {
+    font-size:8px
+  }
+
+  .customizer {
+    padding:0 2px
+  }
+
+  .saved-note {
+    font-size:10px
+  }
+
+  .certificate {
+    padding:40px 25px 35px
+  }
+
+  .certificate h3 {
+    font-size:30px
+  }
+
+  .certificate .eyebrow {
+    font-size:7px
+  }
+
+  .certificate .cert-phrase {
+    font-size:15px;
+    padding:0 10px
+  }
+
+  .cert-stamp {
+    width:58px;
+    height:58px;
+    right:24px;
+    bottom:25px;
+    font-size:5px
+  }
+
+  .cert-stamp b {
+    font-size:21px
+  }
+
+  .speech {
+    font-size:17px;
+    padding:16px 21px
+  }
+
+  .interaction-buttons {
+    gap:10px;
+    max-width:390px;
+    margin:auto
+  }
+
+  .interaction-buttons .button {
+    width:calc(50% - 5px);
+    min-width:0;
+    font-size:12px
+  }
+
+  .garden {
+    border-radius:75px 75px 10px 10px;
+    aspect-ratio:1.3
+  }
+
+  .garden svg {
+    width:100%;
+    object-fit:cover
+  }
+
+  .garden>div {
+    overflow:hidden
+  }
+
+  .garden svg {
+    width:100%;
+    height:100%
+  }
+
+  .heart-0 {
+    left:8%;
+    top:15%
+  }
+
+  .heart-1 {
+    left:8%;
+    top:65%
+  }
+
+  .heart-2 {
+    left:44%;
+    top:40%
+  }
+
+  .heart-3 {
+    left:88%;
+    top:55%
+  }
+
+  .heart-4 {
+    left:79%;
+    top:66%
+  }
+
+  .moment-message {
+    font-size:20px;
+    margin-top:24px;
+    min-height:100px
+  }
+
+  .collected-wishes p {
+    font-size:12px
+  }
+
+  .letter-lock {
+    font-size:11px;
+    gap:7px
+  }
+
+  .secret-letter {
+    padding:42px 28px 25px;
+    font-size:17px;
+    line-height:1.95
+  }
+
+  .secret-letter .letter-signoff {
+    font-size:21px
+  }
+
+  .envelope {
+    width:290px;
+    height:192px
+  }
+
+  .envelope-seal {
+    top:77px;
+    left:123px
+  }
+
+  .letter-section>.handwritten {
+    font-size:12px
+  }
+
+  .letter-section h2 {
+    font-size:35px
+  }
+
+  .night-stars {
+    word-spacing:20px
+  }
+
+  .moon-stage {
+    transform:scale(.9);
+    margin-bottom:5px
+  }
+
+  .final-section {
+    padding-bottom:55px
+  }
+
+  .final-section h2 {
+    font-size:34px
+  }
+
+  .site-footer {
+    padding-bottom:max(32px,env(safe-area-inset-bottom))
+  }
+
+  .site-footer p {
+    font-size:14px
+  }
+
+  .site-footer small {
+    font-size:8px
+  }
+
+}
+
+@media(max-width:420px) {
+  .site-header {
+    padding:0 19px
+  }
+
+  .brand-icon {
+    width:36px;
+    height:39px
+  }
+
+  .brand>span:last-child {
+    font-size:20px
+  }
+
+  .hero {
+    padding:36px 18px 80px
+  }
+
+  .date-label {
+    font-size:8px;
+    letter-spacing:1.6px;
+    padding:6px 10px
+  }
+
+  .hero h1 {
+    font-size:36px;
+    max-width:360px;
+    line-height:1.14
+  }
+
+  .hero h1 br {
+    display:none
+  }
+
+  .hero-subtitle {
+    max-width:290px;
+    font-size:13px
+  }
+
+  .mobile-break {
+    display:block
+  }
+
+  .gift-stage {
+    width:350px;
+    height:235px;
+    margin-top:0
+  }
+
+  .gift-art {
+    inset:0 -15px
+  }
+
+  .gift-annotation {
+    font-size:11px;
+    left:5px;
+    top:73px
+  }
+
+  .gift-annotation span {
+    font-size:32px;
+    margin-left:26px
+  }
+
+  .gift-note {
+    right:0;
+    top:106px
+  }
+
+  .doodle-left {
+    top:43%;
+    width:44px;
+    left:-9px
+  }
+
+  .doodle-right {
+    top:47%;
+    width:44px;
+    right:-9px
+  }
+
+  .hero .button {
+    min-width:190px;
+    font-size:13px;
+    min-height:49px
+  }
+
+  .hero-footnote {
+    font-size:12px
+  }
+
+  .hero-bottom {
+    left:19px;
+    right:19px;
+    bottom:19px;
+    gap:17px
+  }
+
+  .hero-bottom>span:first-child,.hero-bottom>span:last-child {
+    max-width:132px;
+    line-height:1.7;
+    font-size:6px
+  }
+
+  .hero-bottom>span:last-child {
+    text-align:right
+  }
+
+  .section {
+    padding-left:20px;
+    padding-right:20px
+  }
+
+  .journey-inner {
+    padding-left:14px;
+    padding-right:14px;
+    gap:8px
+  }
+
+  .journey-line {
+    width:17px
+  }
+
+  .journey a {
+    font-size:9px
+  }
+
+  .section-heading h2 {
+    font-size:34px
+  }
+
+  .section-heading>p:last-child {
+    font-size:14px
+  }
+
+  .section-heading .eyebrow,.eyebrow {
+    font-size:8px;
+    letter-spacing:1.9px
+  }
+
+  .field-row {
+    gap:11px
+  }
+
+  .swatches {
+    gap:13px
+  }
+
+  .certificate .cert-phrase {
+    font-size:13px
+  }
+
+  .certificate h3 {
+    font-size:26px
+  }
+
+  .certificate strong {
+    font-size:26px
+  }
+
+  .certificate .eyebrow {
+    font-size:6px;
+    letter-spacing:1.4px
+  }
+
+  .letter-lock {
+    font-size:10px
+  }
+
+  .letter-section h2 {
+    font-size:31px
+  }
+
+  .final-section h2 {
+    font-size:30px
+  }
+
+}
+
+@media(max-height:740px) and (min-width:761px) {
+  .site-header {
+    height:85px
+  }
+
+  .hero {
+    min-height:calc(100svh - 85px);
+    padding-top:27px
+  }
+
+  .hero h1 {
+    font-size:48px;
+    margin-top:17px
+  }
+
+  .hero-subtitle {
+    margin-top:16px;
+    font-size:14px
+  }
+
+  .gift-stage {
+    height:230px;
+    width:450px
+  }
+
+  .gift-art {
+    inset:-17px 0 0
+  }
+
+  .gift-annotation {
+    top:75px
+  }
+
+  .gift-note {
+    top:107px
+  }
+
+  .hero-footnote {
+    margin-top:10px
+  }
+
+  .hero-bottom {
+    bottom:15px
+  }
+
+  .hero .button {
+    min-height:46px;
+    padding-top:10px;
+    padding-bottom:10px
+  }
+
+}
+
+@media(max-width:760px) {
+  .heart-0 {
+    left:13%;
+    top:14%
+  }
+
+  .heart-1 {
+    left:17%;
+    top:66%
+  }
+
+  .heart-2 {
+    left:47%;
+    top:41%
+  }
+
+  .heart-3 {
+    left:81%;
+    top:56%
+  }
+
+  .heart-4 {
+    left:73%;
+    top:68%
+  }
+
+}
+
